@@ -10,3 +10,4 @@ unstructured
 python-docx
 openpyxl
 pypdf
+gevent>=22.10.2

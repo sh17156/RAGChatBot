@@ -62,5 +62,7 @@ def ask():
     
     return jsonify({'response': response})
 
-if __name__ == '__main__':
-    app.run(debug=False) 
+if __name__ == "__main__":
+    # Only used for local development
+    # Gunicorn will use the 'app' variable directly in production
+    app.run(host='0.0.0.0', port=8000, debug=False) 

@@ -1,0 +1,12 @@
+langchain>=0.1.0
+langchain-openai
+langchain-community>=0.0.10
+anthropic
+faiss-cpu
+python-dotenv
+flask
+gunicorn
+unstructured
+python-docx
+openpyxl
+pypdf

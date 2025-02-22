@@ -1,0 +1,56 @@
+# Virtual Environment
+.venv/
+venv/
+
+# Environment Variables
+.env
+
+# Python
+__pycache__/
+*/__pycache__/
+*.py[cod]
+*.so
+
+# Build and Distribution
+build/
+dist/
+*.egg-info/
+
+# Vector Store
+data/vector_store/
+
+# IDE
+.idea/
+.vscode/
+
+# Windows
+Thumbs.db
+desktop.ini
+*.db
+
+# Temp Files
+*.log
+*.tmp
+temp/
+tmp/
+package/
+
+# Testing
+.pytest_cache/
+.coverage
+
+# Project Specific
+data/documents/*
+!data/documents/.gitkeep
+
+# IDE specific files
+*.swp
+*.swo
+.DS_Store
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# Local development configuration
+instance/
+.webassets-cache

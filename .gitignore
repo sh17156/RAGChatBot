@@ -40,8 +40,6 @@ package/
 .coverage
 
 # Project Specific
-data/documents/*
-!data/documents/.gitkeep
 
 # IDE specific files
 *.swp
